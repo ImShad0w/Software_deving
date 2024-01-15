@@ -3,5 +3,40 @@
 
 body {
     font-family: 'Bebas Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
+
+#main-header{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    padding: 10px;
+}
+
+
+#main-header .header-text{
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+
+#main-header ul, a{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 20px;
+    font-size: 30px;
+    text-decoration: solid;
+    color: black;
+    padding-right: 20px;
+}
+
+a:hover{
+    color: white;
+}
