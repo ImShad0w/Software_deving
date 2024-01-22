@@ -9,7 +9,7 @@ body {
 }
 
 #main-header {
-  background-color: gray;
+  background-color: #def4e4;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -51,6 +51,7 @@ a:hover {
   align-items: center;
   width: 700px;
   flex: auto;
+  text-align: center;
 }
 
 #main-section h1 {
@@ -64,16 +65,35 @@ a:hover {
 .container {
   display: flex;
   justify-content: center;
-  gap: 6px;
+  gap: 60px;
 }
 
 .about-title {
   display: flex;
   font-size: 50px;
   justify-content: center;
+  padding-bottom: 50px;
+  font-weight: bolder;
 }
 
 .item {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 200px;
+  background-color: #a0d2eb;
+  border-radius: 10px;
+  padding: 10px;
 }
+
+.item h3{
+  font-size: 30px;
+  padding: 0;
+}
+
+.about-section{
+  margin-bottom: 10rem;
+}
+
